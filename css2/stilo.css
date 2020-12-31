@@ -1,0 +1,64 @@
+.titulo{
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 12px;
+	text-align: center;
+	width: 500px;
+	position: absolute;
+	left: 50%;
+	transform:translate(-50%);
+}
+#formulario{
+	width: 600px;
+	padding-top: 20px;
+	padding-left: 120px; 
+	border: 1px solid #ccc;
+	
+	position: absolute;
+	top:30px;
+	left: 50%;
+	transform:translate(-50%);
+	/* obs: este código comentado posiciona a div no centro da tela.
+	position:absolute;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%, -50%);*/
+
+}
+#formulario table{
+	width: 500px;
+	height: 300px;
+	font-family:verdana;
+	font-size: 10px;
+	font-weight: bold;
+}
+.input{
+	width: 100px;
+}
+input{
+	border: 1px solid #ccc;
+	height: 22px;
+	background-color: #ddd;
+	outline:0;
+	border-radius: 5px;
+}
+select{
+background-color: #ddd;	
+outline: 0;
+border: 1px solid #ccc;
+border-radius: 10px;
+}
+.button{
+	background-color: #5e5e5e;
+	color: white;
+	font-size: 12px;
+	cursor: pointer;
+	
+}
+#bottom{
+	background-color: red;
+}
+span{
+	position: absolute;
+	left: 68%;
+}

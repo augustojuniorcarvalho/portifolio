@@ -1,0 +1,51 @@
+.produtos{
+	position: absolute;
+	left: 50%;
+	transform:translate(-50%);	
+}
+.td{
+	text-align:center;
+	border: 1px solid #ccc;
+	font-size: 12px;
+	font-family: arial;
+	text-align:center;
+	vertical-align:middle;
+	
+}
+.td:hover{
+	background-color:#ccc;
+}
+#td{
+	text-align: right;
+}
+/*teste de flexbox*/
+.top{
+	
+}
+.container{
+	display: flex;
+	justify-content:space-between;
+	background-color: blue;
+}
+.flex1{
+	margin-left: 100px;
+	width: 100px;
+	background-color: red;
+}
+.flex2 ul,
+.flex2 li{
+	display: flex;
+	width: 100px;
+	background-color: white;
+	list-style: none;
+	padding-left: 10px;
+	padding-right: 10px;
+
+
+}
+.flex3{
+	margin-right: 100px;
+	width: 100px;
+	background-color: yellow;
+}
+

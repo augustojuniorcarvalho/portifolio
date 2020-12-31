@@ -1,0 +1,140 @@
+body{
+	margin-top: 0;
+	margin-bottom: 100px;
+	background-color: #d2b48c;
+	font-family: verdana;
+	font-size: 18px;
+	
+}
+
+#container{
+	width: 80%;
+	max-width: 1100px;
+	height: auto;
+	margin: auto;
+	background-color: #fff;
+	padding:40px;
+	padding-bottom: 50px;
+}
+.titulo{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 60px;
+	font-weight:bolder;
+	font-family: times new roman;
+}
+.sub_titulo{
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	font-weight:bold;
+	font-family: times new roman;
+	padding-bottom: 30px;
+}
+#primaria article{
+	background-color:#f5f5dc;
+	padding: 45px 78px;	
+}
+
+.widget{
+	display: flex;
+}
+.widget_image{
+	flex:1;
+	
+}
+.widget_texto{
+	flex:2;
+	font-family: verdana;
+	font-size: 18px;
+	text-align: left;
+	margin-left: 24px;
+	
+}
+.widget_image img{
+	width: auto;
+	height:182px;
+}
+#secundaria{
+	margin-bottom: 30px;
+}
+#secundaria .article_title{
+	margin-top: 35px;
+	padding-left: 5px;
+	font-size: 18px;
+	font-family: verdana;
+}
+#secundaria .article_conteudo{
+
+}
+footer{
+	background-color:#f5f5dc;
+}
+.footer_area{
+	width: 80%;
+	padding: 45px 78px;	
+}
+.footer_desc{
+	margin-bottom: 20px;
+}
+.footer_rodape a{
+	color: blue;
+}	
+.fonte{
+	background-color: #1e1e1e;
+}
+@media(max-width:768px){
+	body{
+		margin:0px;
+		padding-bottom: 120px;
+	}
+	#container{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	padding:0px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.titulo {
+    width: 91%;
+    }
+.sub_titulo {
+    width: 91%;
+    }
+	.widget{
+		flex-direction:column;
+		padding: 10px;
+		margin: 30px;
+	}
+	.widget_texto{
+		margin-left: 0px;
+		padding-right: 50px;
+		margin-bottom: 20px;
+	}
+
+	#primaria article{
+		padding: 0;
+	}
+	.widget_image img {
+    width: 360px;
+    height: 182px;
+    margin-top: 30px;
+    margin-bottom: 20;
+}
+#secundaria .article_title {
+    margin-top: 35px;
+    padding-left: 10px;
+
+}
+
+.article_conteudo{
+	padding-right: 50px;
+}
+.footer_area {
+    width: 80%;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+	

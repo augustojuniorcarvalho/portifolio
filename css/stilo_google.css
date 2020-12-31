@@ -1,0 +1,196 @@
+.topo{
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	font-family: arial;
+	font-size: 14px;
+	color: #989894;
+	margin-right: 50px;
+}
+.gmail{
+	margin-right: 10px;
+}
+.image{
+	margin-right: 10px;
+}
+.menu{
+	margin-right:10px; 
+}
+.menu img{
+	width: 20px;
+	height: 20px;
+}
+.foto_perfil{
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+}
+.foto_perfil img{
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+}
+.topo a{
+	text-decoration: none;
+
+}
+header{
+	margin-bottom: 100px;
+}
+section{
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	
+}
+section .img_google img{
+	width: 200px;
+	height: 180px;
+}
+.input{
+	display: flex;
+	width: 600px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 18px;
+	margin-bottom: 20px;
+}
+.input .search{
+	margin-right: 10px;
+	padding: 5
+}
+.input .teclado{
+	padding: 5px;
+}
+.input .microfone{
+	padding: 5px;
+}
+.input img{
+	width:30px;
+	height:30px;
+}
+.input input{
+	width: 540px;
+	height: 40px;
+	border:0;
+	outline: 0;
+}
+.botoes{
+	display: flex;
+	justify-content:center;
+}
+ .submit{
+  margin-right: 8px;
+}
+.submit input{
+	padding: 5px;
+	text-align: center;
+	background-color: #ddd;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	outline: 0;
+}
+footer{
+margin-top: 160px;
+}
+footer a{
+font-size: 12px;
+font-family: arial;
+text-decoration: none;
+}
+footer .rodape_top{
+	line-height: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 40px;
+	background-color: #ddd;
+	border-bottom: 1px solid #ccc;
+}
+footer .rodape{
+	display: flex;
+	justify-content:space-between;
+	height: 40px;
+	padding-right: 20px;
+	background-color: #ddd;
+}
+footer ul{
+	display: flex;
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+}
+footer ul,
+footer li{
+	line-height: 40px;
+	list-style: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.g_google{
+	display: none;
+}
+.buto{
+	display: none;
+}
+@media only screen and (min-width: 500px) and (max-width: 610px){
+	header {
+    margin-bottom: 0px;
+	}
+	section .img_google img{
+		width: 140px;
+		height: 140px;
+	}
+	.input {
+    width: 436px;
+	}
+	.topo {
+    margin-right: 5px;
+	}
+	footer {
+    margin-right: 5;
+	}
+	footer .rodape {
+    padding-right: 0px;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 500px){
+	header,
+	.img_google {
+   display: none;
+	}
+	.input .search{
+		display: none;
+	}
+	.g_google{
+	display: block;
+}
+	.input img {
+    width: 20px;
+    height: 20px;
+   }
+	.buto{
+	display: flex;
+    align-items: center;
+	}
+	.buto input{
+		margin-right: 10px;
+		width:20px;
+		height:20px;
+		display: flex;
+    align-items: center;
+	}
+	.input .teclado,
+	.input .microfone,
+	.input .g_google{
+		padding: 0px;
+		display: flex;
+    align-items: center;
+	}
+	.input .g_google{
+		margin-left: 10px;
+	}
+	.input {
+    width: 320px;
+}
+
+}

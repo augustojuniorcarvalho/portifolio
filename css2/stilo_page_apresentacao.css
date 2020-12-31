@@ -1,0 +1,269 @@
+body{
+	background-color: black;
+	margin: 0;
+	padding:0;
+}
+.topo{
+	width: 80%;
+	height: 50px;
+	margin: auto;
+	background-color: white;
+}
+.topoint{
+	height: 50px;
+	display: flex;
+	justify-content:space-between;
+}
+.logo{
+	font-size: 24px;
+	font-family:verdana;
+	font-weight: bold;
+	height: 50px;
+	display: flex;
+	align-items:center;
+	margin-left: 100px;
+}
+.menu_right{
+	font-size: 12px;
+	font-family: times new romam;
+	height: 50px;
+	margin-right: 100px;
+}
+.menu_central{
+	font-size: 12px;
+	font-family: times new romam;
+	height: 50px;
+}
+.menu_central ul,
+.menu_central li{
+	height: 50px;
+	display: flex;
+	align-items:center;
+	list-style: none;
+	margin: 0;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.menu_central li:hover{
+	background-color: black;
+	cursor: pointer;
+}
+.menu_central li a{
+	text-decoration: none;
+	color: #aaaaa8;
+}
+.menu_right ul,
+.menu_right li{
+	height: 50px;
+	display: flex;
+	align-items:center;
+	list-style: none;
+	margin: 0;
+	padding-right: 10px;
+	padding-left: 10px;
+	
+}
+.menu_right li:hover{
+	background-color: black;
+	cursor: pointer;
+}
+#li_contato{
+	background-color: black;
+}
+.menu_right li a{
+	text-decoration: none;
+	color: #aaaaa8;
+}
+.menu{
+	width: 80%;
+	margin: auto;
+	height: 20px;
+	background-color: black;
+}
+.menuint{
+	height: 20px;
+	display: flex;
+	justify-content:space-between;
+}
+.logo_marca{
+	display: flex;
+	align-items:center;
+	height: 20px;
+	font-size: 10px;
+	font-family: arial;
+	margin-left: 100px;
+	color: #ccc;
+}
+.desc{
+	display: flex;
+	align-items:center;
+	height: 20px;
+	font-size: 10px;
+	font-family: arial;
+	margin-left: 20px;
+	margin-right: 508px;
+	color: #FFF;
+}
+.contato{
+	display: flex;
+	align-items:center;
+	height: 20px;
+	font-size: 10px;
+	font-family: arial;
+	margin-right: 110px;
+	color: #ccc;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	background-color: white;
+}
+.areaitem{
+	display: flex;
+	justify-content:space-between;
+	margin-left: 100px;
+	margin-right: 110px;
+}
+.item{
+	width: 420px;
+	height: 420px;
+	
+}
+.item img{
+	width: 429px;
+    height: 476px;
+}
+.item_desc{
+	margin-bottom: 30px;
+	width: 400px;
+}
+.marca{
+	margin-top: 30px;
+	font-family: arial;
+	font-size: 18px;
+	font-weight: bold;
+	color: #5e5e5e;
+}
+.submarca{
+	font-family: verdana;
+	font-size: 10px;
+	color: #5e5e5e;
+}
+.area_preco{
+	margin-top: 10px;
+	display: flex;
+}
+.preco{
+	font-weight: bold;
+	font-size: 14px;
+	font-family: arial;
+	color: black;
+	margin-right: 10px;
+}
+.origem{
+	font-family: verdana;
+	font-size: 12px;
+}
+.area_numero{
+	margin-top: 30px;
+}
+.titulo_numero{
+	font-size: 10px;
+	font-family: arial;
+	margin-bottom: 5px;
+}
+.select select{
+	background-color: #ddd;
+	font-size: 10px;
+	width: 70px;
+	height: 20px;
+}
+.select{
+	margin-bottom: 10px;
+}
+.buttom input{
+	color: white;
+	font-family: arial;
+	font-size: 10px;
+	background-color:#2e2e2e;
+	padding: 8px 25px;
+	cursor: pointer;
+}
+.thumbnail{
+	display: flex;
+	border-bottom: 2px solid #ccc;
+	margin-left: 100px;
+	margin-right: 110px;
+	margin-bottom: 20px;
+}
+.item_tenis{
+	width: 80px;
+	height: 60px;
+	margin-right: 40px;	
+	margin-bottom: 10px;
+}
+.item_tenis img{
+	width: 80px;
+	height: 60px;
+}
+footer{
+	display: flex;
+	justify-content:space-evenly;
+	margin-left: 100px;
+	margin-right: 110px;
+	margin-bottom:100px;
+	font-family: arial;
+	color: #989894;
+
+}
+.coments{
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+.rodape_left{
+	width: 320px;
+}
+.rodape_right{
+	width: 320px;
+}
+.dados_rodape{
+	width: 150px;
+	text-align: center;
+}
+.footer_contato{
+	font-family: arial;
+	font-size: 22px;
+	color: #b0b0a2;
+	margin-bottom: 10px;
+}
+.form{
+	display: flex;
+}
+.input_text{
+	width: 150px;
+	height: 20px;
+	border: 1px solid #ccc;
+}
+.input_text input{
+	width: 150px;
+	height: 20px;
+	background-color: #ccc;
+	border: 0;
+	outline: 0;
+}
+.input_buttom{
+	width: 40px;
+	height: 20px;
+	border: 1px solid #ccc;
+	background-color:#2e2e2e;
+}
+.buttom{
+	width: 40px;
+	height: 20px;
+	background-color: #2e2e2e;
+	cursor: pointer;
+	color: #fff;
+}
+
+
+
